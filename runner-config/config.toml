@@ -1,0 +1,35 @@
+concurrent = 1
+check_interval = 0
+shutdown_timeout = 0
+
+[session_server]
+  session_timeout = 1800
+
+[[runners]]
+  name = "721308c4095c"
+  url = "http://172.17.0.1/"
+  id = 1
+  token = "BjEnhDZpF8bsQPa7_AVf"
+  token_obtained_at = 2023-11-01T15:31:50Z
+  token_expires_at = 0001-01-01T00:00:00Z
+  executor = "shell"
+
+[[runners]]
+  name = "721308c4095c"
+  url = "http://172.17.0.1/"
+  id = 2
+  token = "EYDLDj7bMA-KytoWsWRC"
+  token_obtained_at = 2023-11-01T18:23:22Z
+  token_expires_at = 0001-01-01T00:00:00Z
+  executor = "shell"
+
+[[runners]]
+  name = "721308c4095c"
+  url = "http://172.17.0.1/"
+  id = 3
+  token = "e_hQhR6G3SbDECvVRY-x"
+  token_obtained_at = 2023-11-01T23:52:20Z
+  token_expires_at = 0001-01-01T00:00:00Z
+  executor = "shell"
+  [runners.cache]
+    MaxUploadedArchiveSize = 0

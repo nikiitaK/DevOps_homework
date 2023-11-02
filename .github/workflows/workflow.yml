@@ -1,0 +1,9 @@
+name: make_test_file
+on: push
+
+jobs:
+  creating:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pipeline execution completed successfully" > file.txt
+      
